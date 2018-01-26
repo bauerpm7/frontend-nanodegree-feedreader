@@ -121,7 +121,7 @@ $(function() {
         it('has at least one .entry in the .feed container', function() {
             
             //tests whether the .feed container has at least one .entry element
-            expect($('.entry').length).toBeGreaterThan(0);
+            expect($('.feed .entry').length).toBeGreaterThan(0);
         });
     });
 
